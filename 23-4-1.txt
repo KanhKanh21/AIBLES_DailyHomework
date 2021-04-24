@@ -1,0 +1,13 @@
+Phân biệt git checkout và git switch
+1. Giống nhau:
+	Đều dùng để chuyển nhánh và tạo nhánh mới
+        Nếu muốn chuyển sang nhánh khác thì thực hiện:
+		git checkout <Tên nhánh>
+		hoặc
+		git switch <Tên nhánh>
+	Nếu muốn tạo nhánh mới và chuyển sang nhánh đó luôn thì thực hiện:
+		git checkout -b<Tên nhánh mới>
+		hoặc
+		git switch -c<Tên nhánh mới>
+2. Khác nhau:
+	git checkout có thể phục hồi file
