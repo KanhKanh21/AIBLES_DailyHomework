@@ -1,0 +1,16 @@
+Viết một bài tìm hiểu về 3 tùy chọn merge : "create a merge commit", "Squash and merge", "Rebase and merge" khi thực hiện merge pull request trên github
+Trả lời: 
+  1. "Creat a merge commit":
+      Là lựa chọn mặc định khi merge pull request
+      Tất cả các commit từ nhánh hiện tại sẽ được thêm vào nhánh chính cùng với 1 commit mới (1 merge commit)
+      Để merge pull request, cần phải có quyền write trong repo
+      Sử dụng --no-ff option
+  2. "Squash and merge":
+      Tất cả các commit trên nhánh feature được thu gọn trong 1 commit duy nhất và được merge vào nhánh mặc định
+      => Lịch sử commit gọn hơn
+      Để merge pull request, cần phải có quyền write trên repo và repo phải cho phép squash merging
+      Sử dụng fast-forward option
+  3. "Rebase and merge":
+      Tất cả các commit từ nhánh feature hoặc nhánh head được thêm vào nhánh base 1 cách riêng lẻ mà không có 1 merge commit nào
+      Sử dụng fast-forward option
+      Để merge request, cần phải có quyền write trong repo và repo phải cho phép rebase merging
