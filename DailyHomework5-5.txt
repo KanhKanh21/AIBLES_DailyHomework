@@ -1,0 +1,43 @@
+Bài tóm tắt về OOP theo 5W1H
+1. What?
+   - OOP là gì?
+	OOP ( Object Oriented Programming) - lập trình hướng đối tượng là phương pháp lập trình dựa trên kiến trúc lớp và đối tượng
+	Đối tượng (Object) gồm 2 thành phần chính:
+		Thuộc tính: những thông tin, đặc điểm của đối tượng
+		Phương thức: những hành vi mà đối tượng có thể thực hiện
+	Lớp (Class): những đối tượng có những đặc tính tương tự nhau được tập hợp thành 1 lớp
+   - OOP có những đặc tính gì?
+	Tính kế thừa (quan hệ cha con): khả năng xây dựng lớp mới dựa trên những lớp có sẵn. Lớp con có thể bổ sung thêm các phương thức và thuộc tính mới
+	Tính đóng gói: không cho phép thay đổi trạng thái bên trong 1 đối tượng, chỉ các phương thức nội tại mới thay đổi được
+	Tính trừu tượng: bỏ qua các đặc điểm chung của các đối tượng, tập trung vào các đặc điểm riêng của từng đối tượng
+	Tính đa hình: cho phép các đối tượng khác nhau thực thi chức năng giống nhau theo những cách khác nhau
+
+
+2. Why?
+   - Tại sao phải sử dụng hướng đối tượng? => Vì OOP có nhiều ưu điểm cho người lập trình:
+	OOP giúp tăng năng suất, đơn giản hóa độ phức tạp khi bảo trì cũng như mở rộng phần mềm
+	Giảm nhẹ các thao tác viết code, code dễ xây dựng, debug, tái sử dụng
+	Tối ưu việc quản lý source code
+
+
+3. Who?
+   - Ai là người cần sử dụng OOP? 
+	OOP là một trong những lập trình viên cần phải nắm vững
+
+
+4. Where?
+   - OOP được sử dụng trong ngôn ngữ nào?
+	Phổ biến trong: Java, C++, PHP, Python, JavaScript, .NET
+
+
+5. When?
+   - Sử dụng OOP khi nào?
+	Khi thực hiện một project nào đó, muốn xây dựng được source code mà có thể đọc hiểu một cách nhanh chóng và dễ dàng phát triển sau này thì một trong 
+	các cách đó là phát triển source code theo hướng đối tượng
+
+
+6. How?
+   - OOP giải quyết bài toán bằng cách nào?
+	OOP tiếp cận bài toán bằng cách xác định các đối tượng có thể xuất hiện trong bài toán, xác định thuộc tính, mối quan hệ giữa các đối tượng
+	Giải quyết bài toán bằng cách cho các đối tượng tương tác với nhau
+	=> OOP giải quyết bài toán gián tiếp qua hành động của các đối tượng
