@@ -22,7 +22,7 @@ Bài tóm tắt về OOP theo 5W1H
 
 3. Who?
    - Ai là người cần sử dụng OOP? 
-	OOP là một trong những lập trình viên cần phải nắm vững
+	OOP là một trong những kỹ thuật lập trình mà lập trình viên cần phải nắm vững
 
 
 4. Where?
