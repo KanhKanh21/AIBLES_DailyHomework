@@ -1,0 +1,34 @@
+Tổng hợp lại kiến thức lý thuyết database:
+
+1. Khái niệm Cơ sở dữ liệu
+	CSDL Là là hệ thống gồm rất nhiều thông tin, dữ liệu được xây dựng theo một cấu trúc nhất định nhằm đáp ứng nhu cầu khai thác, 
+		sử dụng của nhiều người hay chạy nhiều chương trình cùng một lúc
+	Hệ quản trị cơ sở dữ liệu (DBMS) là một phần mềm cho phép tạo lập các CSDL cho các ứng dụng khác nhau và điều khiển mọi truy 
+		cập tới các CSDL đó. Các hệ quản trị csdl: 
+	Các mức thể hiện: khung hình, logic, vật lý
+2. Lợi ích của CSDL
+	Lưu trữ thông tin có hệ thống
+	Đảm bảo an toàn dữ liệu
+	Có thể phục vụ nhiều người cùng truy cập tại 1 thời điểm
+	Quản lý dữ liệu dễ dàng: tránh trùng lặp dữ liệu
+	Lưu dữ liệu thành dạng các bảng(table) -> xem dữ liệu dễ dàng hơn
+	Tách biệt giữa các chương trình
+	Có thuộc tính ACID
+		Atomicity: Tính nguyên tử
+ 		Consistency: Tính nhất quán
+		Isolation: Tính độc lập
+		Durability: Tính bền vững
+4. Các loại liên kết 
+	Liên kết một - một (1-1)
+	Liên kết một - nhiều (1-N)
+	Liên kết nhiều - nhiều (N-N)
+5. Các khái niệm
+	Khóa chính: được sử dụng để định danh duy nhất mỗi bản ghi tại table của cơ sở dữ liệu.
+	Khóa ngoại: là con trỏ trỏ tới khóa chủ đạo của table khác
+	Thuộc tính: là các đặc trưng của một thực thể cần quản lý
+	Thuộc tính dẫn xuất: là một thuộc tính có thể suy ra từ những thuộc tính liên quan
+	Bảng: là nơi lưu trữ thông tin dữ liệu các đối tượng quản lý, có cấu trúc hai chiều gồm các hàng (bản ghi) và các cột (trường dữ liệu)
+	Bản ghi: mỗi bản ghi là một hàng trong bảng
+	Query: dùng để thực hiện các thao tác lên dữ liệu
+
+	
